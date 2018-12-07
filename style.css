@@ -7,15 +7,17 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Top navigation bar */
+
 nav {
     height: 32px; width: 100%;
     font-size: 13px;
 }
 
 .nav {
-    float:right;
-    margin-right: 29px;
-    margin-top: 15px;
+    position: absolute;
+    right: 29px;
+    top: 15px;
 }
 
 .nav a {
@@ -65,4 +67,22 @@ nav {
     background-image: url("images/photo.jpg");
     border-radius: 100%;
     margin-left: 19px;
+}
+
+/* Main elements */
+
+main {
+    width: 100%;
+}
+
+.logo {
+    width: 100%; height: 233px;
+    margin-top: 89px;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    width: 272px;
+    padding-top: 109px;
 }
