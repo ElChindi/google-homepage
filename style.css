@@ -1,0 +1,50 @@
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 30px; width: 100%;
+}
+
+.nav {
+    float:right;
+    margin-right: 30px;
+    margin-top: 16px;
+}
+
+#apps, #notif {
+    opacity: 0.5;
+    background-image: url("images/i1_1967ca6a.png");
+    width: 20px; height: 20px;
+
+    margin-top: 5px;
+}
+
+#apps:hover, #notif:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#apps {
+    background-position: -137px -43px;
+}
+
+#notif {
+    background-color: #000;
+    border-radius: 100%;
+    background-position: -194px -21px;
+    margin-left: 25px;
+}
+
+#profile {
+    width: 30px; height: 30px;
+    background-color: #888;
+    background-position: 0 0;
+    border-radius: 100%;
+}
+
+nav div, nav a {
+    float: left;
+    margin-left: 20px;
+}
