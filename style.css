@@ -38,7 +38,7 @@ nav {
     margin-left: 20px;
 }
 
-#apps, #notif {
+.nav .apps, .nav .notif {
     opacity: 0.55;
     background-image: url("images/i1_1967ca6a.png");
     width: 20px; height: 20px;
@@ -46,23 +46,23 @@ nav {
     margin-top: 6px;
 }
 
-#apps:hover, #notif:hover, #profile:hover {
+.nav .apps:hover, .nav .notif:hover, .nav .profile:hover {
     opacity: 1;
     cursor: pointer;
 }
 
-#apps {
+.nav .apps {
     background-position: -137px -43px;
 }
 
-#notif {
+.nav .notif {
     background-color: #000;
     border-radius: 100%;
     background-position: -194px -21px;
     margin-left: 25px;
 }
 
-#profile {
+.nav .profile {
     width: 32px; height: 32px;
     background-image: url("images/photo.jpg");
     border-radius: 100%;
