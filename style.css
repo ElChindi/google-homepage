@@ -92,7 +92,7 @@ main {
     /* Bar */
 
 .search-bar {
-    width: 500px;height: 46px;
+    width: 600px;height: 46px;
     padding: 5px 8px 0 16px;
     border: 1px solid #ddd;
     border-radius: 3px;
@@ -101,14 +101,28 @@ main {
     margin-top: -6px;
 }
 
+.search-bar:hover {
+    box-shadow: 0 2px 5px #ddd;
+}
+
 .search-bar .bar {
-    width: 434px;height: 34px;
+    width: 534px;height: 34px;
+    font-size: 18px;
+    border: none;
+}
+
+.search-bar .bar:focus {
+    outline: none;
 }
 
 .search-bar .mic {
     float: right;
     width: 40px;height: 34px;
     padding: 5px 8px;
+}
+
+.search-bar .mic:hover {
+    cursor: pointer;
 }
 
 .search-bar .mic img {
