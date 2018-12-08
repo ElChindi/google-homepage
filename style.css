@@ -5,13 +5,13 @@
 
 body {
     font-family: Arial, sans-serif;
+    font-size: 13px;
 }
 
 /* 1- Top navigation bar */
 
 nav {
     height: 32px; width: 100%;
-    font-size: 13px;
 }
 
 .nav {
@@ -127,4 +127,20 @@ main {
 
 .search-bar .mic img {
     width: 24px;
+}
+
+    /* buttons */
+
+.buttons {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.gray-btn {
+    padding: 10px 20px;
+}
+
+.colab {
+    text-align: center;
 }
