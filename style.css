@@ -135,12 +135,35 @@ main {
     width: 600px;
     margin: 0 auto;
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .gray-btn {
-    padding: 10px 20px;
+    font-weight: bold;
+    padding: 10px 16px;
+    margin: 0 5px;
+    background-color: #eee;
+    border: 1px solid transparent;
+    opacity: .6;
+    border-radius: 2px;
+
+}
+
+.gray-btn:hover {
+    opacity: 1;
+    border-color: #ddd;
 }
 
 .colab {
+    margin-top: 29px;
     text-align: center;
+}
+
+.colab a {
+    text-decoration: none;
+}
+
+.colab a:hover {
+    text-decoration: underline;
 }
