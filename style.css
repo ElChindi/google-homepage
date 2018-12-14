@@ -167,3 +167,57 @@ main {
 .colab a:hover {
     text-decoration: underline;
 }
+
+/* 3- Footer */
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 82px;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #777;
+}
+
+.foot1, .foot2 {
+    height: 50%;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer span {
+    display: inline-block;
+    height: 100%;
+    line-height: 40px;
+}
+
+footer span.right {
+    padding-right: 30px;
+}
+
+footer span.left {
+    padding-left: 3px;
+}
+
+.foot1 span {
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.foot2 a {
+    padding-left: 27px;
+    float: left;
+    text-decoration: none;
+    color: #777;
+}
+
+.foot2 a:hover {
+    text-decoration: underline;
+}
